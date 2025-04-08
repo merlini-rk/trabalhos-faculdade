@@ -1,5 +1,5 @@
-#Felipe Gomes de Andrade
-#ResoluçãodeApartamentos
+
+#Aluguel Apartamentos
 
 import os
 import time
@@ -180,8 +180,8 @@ Pressione {verde}ENTER{reset} para começar o orçamento da sua hospedagem!''')
     pessoas = quantdhosp (pessoas)
     print(f'{a:-^51}')
 
-#isso aqui poderia ser substituido por uma lista, mas eu fiz assim e funcionou assim e vai ficar assim porque o programa é meu
-#ta calculando o valor, a cada numero que as duas variaveis recebem muda o valor da variavel valor, ta confuso mas certeza que voce entendeu
+
+#ta calculando o valor, a cada numero que as duas variaveis recebem muda o valor da variavel valor, 
     valor = 0
     if ap == 1 and pessoas == 1:
         valor = 20
